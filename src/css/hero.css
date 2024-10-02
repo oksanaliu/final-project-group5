@@ -35,7 +35,7 @@
 }
 
 .english {
-  color: var(--light-green);
+  color: var(--green-accent);
 }
 
 .hero-header {
@@ -64,22 +64,23 @@
 }
 
 .application-btn {
-  display: block;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: var(--white);
   background-color: var(--green);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.714; /* 171.429% */
 
-  padding: 16px 32px;
+  min-height: 52px;
   width: 100%;
-  min-height: 56px;
   border-radius: 4px;
   border: none;
 }
 
 .application-btn:hover,
 .application-btn:focus {
-  background-color: var(--green);
+  background-color: #38ae5f;
 }
