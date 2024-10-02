@@ -42,12 +42,6 @@
   line-height: 1.29; /* 128.571% */
 }
 
-.nav-anchor.selected,
-.nav-anchor:hover,
-.nav-anchor:active,
-.nav-anchor:focus {
-}
-
 .nav-anchor:hover:after,
 .nav-anchor:hover:focus {
   content: '';
