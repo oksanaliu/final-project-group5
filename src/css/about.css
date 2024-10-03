@@ -13,7 +13,7 @@
 }
 
 .highlight {
-    color: var(--highlight-color);
+    color: var(--green-accent);
 }
 
 .about-description {
@@ -30,7 +30,7 @@
 }
 
 .card {
-    background-color: var(--card-bg-color);
+    background-color: var(--gray);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@
 .card-number {
     font-size: 28px;
     font-weight: bold;
-    color: var(--card-number-color);
+    color: var(--green);
     font-weight: 700;
 }
 
