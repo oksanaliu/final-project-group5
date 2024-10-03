@@ -6,6 +6,11 @@
 }
 
 .highlight {
+    width: 39px;
+    height: 12px;
+    left: 197px;
+    border-radius: 8px 0px 0px 0px;
+    margin-top: 106;
     color: var(--green-accent);
 }
 
